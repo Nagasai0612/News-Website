@@ -1,0 +1,66 @@
+.container {
+    margin-top: 20px; /* Space above the container */
+}
+
+h1 {
+    color: #2980b9; /* Main heading color */
+    font-size: 2.5rem; /* Heading font size */
+    font-weight: bold; /* Bold font for heading */
+}
+
+.row {
+    margin-bottom: 20px; /* Space below each row */
+}
+
+.col-md-4 {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center items */
+    margin-bottom: 30px; /* Space below each news item */
+}
+
+.news-item {
+    background-color: #fff; /* White background for news items */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevent overflow */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.news-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.news-image {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.news-title {
+    font-size: 1.5rem; /* Title font size */
+    color: #333; /* Darker color for title */
+    margin: 15px 10px; /* Space around title */
+}
+
+.news-description {
+    font-size: 1rem; /* Description font size */
+    color: #666; /* Lighter color for description */
+    margin: 0 10px 15px; /* Space around description */
+}
+
+.spinner-container {
+    display: flex; /* Flexbox for center alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height for the spinner */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust heading size on smaller screens */
+    }
+    .col-md-4 {
+        flex: 0 0 100%; /* Stack news items on smaller screens */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+}

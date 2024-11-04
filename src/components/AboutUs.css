@@ -1,0 +1,59 @@
+/* AboutUs.css */
+
+.about-container {
+    padding: 70px;
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the container */
+    line-height: 1.6; /* Improve line spacing */
+    background-color: #f9f9f9; /* Light background color for the container */
+    border: 1px solid #e0e0e0; /* Subtle border for better definition */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  h1 {
+    
+    font-size: 2.5rem; /* Larger font size for main heading */
+    color: #2c3e50; /* Darker color for better contrast */
+    margin-bottom: 20px; /* Space below heading */
+    text-align: center; /* Center the main heading */
+  }
+  
+  h2 {
+    font-size: 2rem; /* Slightly smaller size for subheadings */
+    margin-top: 30px; /* Space above subheadings */
+    color: #2980b9; /* Attractive blue color for subheadings */
+    border-bottom: 2px solid #2980b9; /* Underline effect */
+    padding-bottom: 5px; /* Space between text and underline */
+  }
+  
+  p {
+    font-size: 1.1rem; /* Font size for paragraphs */
+    color: #444; /* Darker grey for text */
+    margin-bottom: 15px; /* Space below paragraphs */
+  }
+  
+  .team-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .team-list li {
+    background: #e6f9ff; /* Light blue background for team members */
+    padding: 10px; /* Space around each item */
+    margin-bottom: 10px; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #b3e0ff; /* Subtle border for each item */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+  }
+  
+  .team-list li:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+  }
+  
+  .about-container p:last-child {
+    font-weight: bold; /* Highlight contact information */
+    color: #16a085; /* Greenish color for emphasis */
+  }
+  

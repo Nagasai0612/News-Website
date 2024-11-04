@@ -1,0 +1,56 @@
+.navbar {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #2980b9, #3498db); /* Gradient background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for more depth */
+}
+
+.navbar-brand {
+    font-size: 1.6rem; /* Slightly larger brand font size */
+    font-weight: bold;
+    color: #ffffff;
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1); /* Scale up on hover for effect */
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 1.2rem; /* Slightly larger link font size */
+    padding: 10px 15px; /* Add padding for better spacing */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+.nav-link:hover {
+    color: #f0a500; /* Maintain hover color for contrast */
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+
+.nav-link.active {
+    color: #f0a500; /* Active link color */
+    font-weight: bold; /* Make active link bold */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
